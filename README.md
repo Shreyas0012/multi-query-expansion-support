@@ -54,7 +54,7 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-Open your browser at: **`http://localhost:8501`**
+Open your browser at: **`[http://localhost:8501](https://multi-query-expansion-support-bhaoujgqiuieudswdegcci.streamlit.app/)`**
 
 ---
 
