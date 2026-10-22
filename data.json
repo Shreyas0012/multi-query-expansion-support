@@ -1,0 +1,198 @@
+{
+  "documents": [
+    {
+      "id": "DOC-01",
+      "title": "Password Reset Link Not Arriving in Inbox",
+      "category": "Authentication & Accounts",
+      "content": "If your password reset email is missing, check your Spam, Junk, or Promotions folder. Ensure your registered email address was entered without typos. If still missing, whitelist support@company.com or wait 5 minutes before requesting another reset link."
+    },
+    {
+      "id": "DOC-02",
+      "title": "Account Locked Due to Excessive Failed Login Attempts",
+      "category": "Authentication & Accounts",
+      "content": "Accounts are temporarily locked for 30 minutes after 5 unsuccessful login tries to protect your security. You can wait for the lockout timer to expire or contact your workspace admin to unlock your user profile immediately."
+    },
+    {
+      "id": "DOC-03",
+      "title": "Two-Factor Authentication (2FA) Code Invalid or Expired",
+      "category": "Authentication & Accounts",
+      "content": "Ensure your authenticator app's internal time sync is set to automatic. If 6-digit verification codes continue failing, use one of your saved emergency backup recovery codes or request an SMS OTP code instead."
+    },
+    {
+      "id": "DOC-04",
+      "title": "Credit Card Payment Declined During Checkout",
+      "category": "Billing & Payments",
+      "content": "Payments can fail if your billing ZIP code doesn't match card records, international transactions are blocked by your bank, or funds are insufficient. Verify card details, contact your bank, or try another payment method."
+    },
+    {
+      "id": "DOC-05",
+      "title": "Updating Billing Information and Invoice Address",
+      "category": "Billing & Payments",
+      "content": "Navigate to Settings > Billing & Invoices > Payment Methods. Click 'Edit Card' or 'Update Billing Address'. All future subscription invoices will reflect the updated tax ID and corporate address."
+    },
+    {
+      "id": "DOC-06",
+      "title": "Requesting a Refund for Accidental Duplicate Charges",
+      "category": "Billing & Payments",
+      "content": "If you notice multiple identical charges on your bank statement for a single transaction, submit a refund ticket with your invoice numbers. Duplicate charges are automatically reversed within 5 to 7 business days."
+    },
+    {
+      "id": "DOC-07",
+      "title": "Application Freezes or Crashes Immediately on Startup",
+      "category": "Desktop App",
+      "content": "A sudden crash on launch is usually caused by corrupted local cache or outdated graphics drivers. Launch the app in Safe Mode by holding Shift while opening, or delete the app cache directory under AppData/Roaming."
+    },
+    {
+      "id": "DOC-08",
+      "title": "How to Clear Browser and App Cache to Resolve Glitches",
+      "category": "Desktop App",
+      "content": "To wipe stored cache, go to Preferences > Storage > Clear Cache & Cookies. Restart the client afterwards. This refreshes temporary local assets and resolves blank screen or rendering errors."
+    },
+    {
+      "id": "DOC-09",
+      "title": "Microphone Not Working or Low Input Volume in Voice Calls",
+      "category": "Audio & Video",
+      "content": "Check that your operating system has granted microphone permissions to the application. In Audio Settings, verify the correct default input device is selected and that the hardware mute switch on your headset is toggled off."
+    },
+    {
+      "id": "DOC-10",
+      "title": "Webcam Not Detected or Black Screen in Video Meetings",
+      "category": "Audio & Video",
+      "content": "Confirm no other application (like Zoom or Teams) is using the camera in the background. In app settings under Video, re-select your camera device and verify privacy permissions in Windows Settings > Camera."
+    },
+    {
+      "id": "DOC-11",
+      "title": "Slow File Uploads and Connection Timeout Errors",
+      "category": "Network & Cloud Sync",
+      "content": "Large file upload timeouts usually result from strict firewall packet inspections, VPN routing, or upload bandwidth throttling. Disable active VPNs temporarily, test on Ethernet, or break files into smaller batches."
+    },
+    {
+      "id": "DOC-12",
+      "title": "Cloud File Sync Conflicts and Offline File Access",
+      "category": "Network & Cloud Sync",
+      "content": "When two collaborators edit identical files while offline, sync conflict duplicates are created with a timestamp suffix. Review differences manually, choose the authoritative version, and delete the duplicate."
+    },
+    {
+      "id": "DOC-13",
+      "title": "Cannot Connect to Server: Error 503 Service Unavailable",
+      "category": "Network & Cloud Sync",
+      "content": "An HTTP 503 code indicates temporary backend maintenance or cloud gateway overload. Check status.company.com for planned downtime. Retry after 2 minutes or flush your DNS cache using ipconfig /flushdns."
+    },
+    {
+      "id": "DOC-14",
+      "title": "Mobile Push Notifications Not Appearing on Phone",
+      "category": "Mobile & Notifications",
+      "content": "Verify system notifications are enabled for the app in iOS/Android settings. Check that 'Do Not Disturb' or Battery Saver mode is not suppressing background notifications. Re-login to regenerate push tokens."
+    },
+    {
+      "id": "DOC-15",
+      "title": "Exporting Reports and Analytics Data to CSV or Excel",
+      "category": "Data & Reporting",
+      "content": "To download analytics data, open the Dashboard, click 'Export' at the top-right corner, and pick CSV or XLSX format. For date ranges exceeding 90 days, the export link will be emailed to your inbox within 10 minutes."
+    },
+    {
+      "id": "DOC-16",
+      "title": "Inviting Team Members and Managing Role Permissions",
+      "category": "Admin & Workspace",
+      "content": "Workspace admins can invite collaborators by going to Team Settings > Members > Invite by Email. Choose role permissions between Member, Editor, or Admin to control access to billing and project data."
+    },
+    {
+      "id": "DOC-17",
+      "title": "Single Sign-On (SSO) SAML Setup and Login Issues",
+      "category": "Admin & Workspace",
+      "content": "For enterprise Okta or Azure AD integrations, upload the Identity Provider XML metadata in Security Settings. Ensure user emails in your IdP match their corporate directory accounts exactly."
+    },
+    {
+      "id": "DOC-18",
+      "title": "High CPU and RAM Consumption Causing System Lag",
+      "category": "Performance & System",
+      "content": "If the app consumes excessive memory, disable hardware acceleration in Preferences > Advanced. Also reduce the number of concurrently open tabs and restart the app to release memory leaks."
+    },
+    {
+      "id": "DOC-19",
+      "title": "Unsubscribing from Email Newsletters and Notification Preferences",
+      "category": "Settings & Privacy",
+      "content": "Manage marketing communications by clicking 'Unsubscribe' in any promotional footer or visiting Account Settings > Notifications to individually toggle product updates, digest emails, and security alerts."
+    },
+    {
+      "id": "DOC-20",
+      "title": "Restoring Deleted or Missing Files from Archive",
+      "category": "Data & Reporting",
+      "content": "Items deleted within the last 30 days are safely held in the Trash / Archive folder. Go to Files > Trash, find the missing document, and click 'Restore'. After 30 days, files are permanently purged."
+    },
+    {
+      "id": "DOC-21",
+      "title": "Bluetooth Audio Device Disconnecting Repeatedly",
+      "category": "Audio & Video",
+      "content": "Intermittent audio cutouts occur due to radio interference or power management sleep. In Windows Device Manager, uncheck 'Allow computer to turn off this device to save power' for Bluetooth adapters and re-pair the headset."
+    },
+    {
+      "id": "DOC-22",
+      "title": "Cancelling Subscription Auto-Renewal and Plan Downgrades",
+      "category": "Billing & Payments",
+      "content": "To cancel auto-renew, go to Settings > Subscription and click 'Cancel Subscription'. Your paid features will remain active until the end of the current billing cycle without further automatic renewals."
+    },
+    {
+      "id": "DOC-23",
+      "title": "Mobile App Crashing on iOS/Android After Recent Update",
+      "category": "Mobile & Notifications",
+      "content": "If the mobile application crashes after updating from the App Store or Google Play Store, clear the mobile app storage data in device settings, or uninstall and reinstall the application to ensure clean local storage."
+    },
+    {
+      "id": "DOC-24",
+      "title": "Printer Spooler Failure When Printing Invoice Documents",
+      "category": "Desktop App",
+      "content": "If printing stalls or shows spooler errors, open Windows Services (services.msc), locate 'Print Spooler', and click Restart. Clear pending print queues before attempting to print your invoice PDF again."
+    },
+    {
+      "id": "DOC-25",
+      "title": "Database Connection Timeout and Host Network Configuration",
+      "category": "Backend & Database",
+      "content": "If the application fails to connect to the database, verify the database host URL, port 5432/3306, and credential string. Check that the firewall or security group allows inbound traffic and ensure the database server service is running."
+    }
+  ],
+  "test_dataset": [
+    {
+      "id": "TEST-1",
+      "query": "forgot password and reset email never arrived",
+      "relevant_ids": ["DOC-01", "DOC-02"],
+      "description": "User can't log in and didn't get the recovery link"
+    },
+    {
+      "id": "TEST-2",
+      "query": "money deducted twice need refund immediately",
+      "relevant_ids": ["DOC-06", "DOC-04"],
+      "description": "Double billing / duplicate transaction issue"
+    },
+    {
+      "id": "TEST-3",
+      "query": "app won't open keeps crashing on launch",
+      "relevant_ids": ["DOC-07", "DOC-08"],
+      "description": "Desktop application startup failure"
+    },
+    {
+      "id": "TEST-4",
+      "query": "people can't hear me voice muted on call",
+      "relevant_ids": ["DOC-09", "DOC-21"],
+      "description": "Microphone and voice input malfunction"
+    },
+    {
+      "id": "TEST-5",
+      "query": "how to stop automatic renewal and cancel plan",
+      "relevant_ids": ["DOC-22", "DOC-05"],
+      "description": "Subscription cancellation and billing change"
+    },
+    {
+      "id": "TEST-6",
+      "query": "I cannot log in because my password is not working.",
+      "relevant_ids": ["DOC-01", "DOC-02"],
+      "description": "Customer login and password failure"
+    },
+    {
+      "id": "TEST-7",
+      "query": "My application is unable to connect to the database.",
+      "relevant_ids": ["DOC-25", "DOC-13"],
+      "description": "Application database and backend server connectivity"
+    }
+  ]
+}
